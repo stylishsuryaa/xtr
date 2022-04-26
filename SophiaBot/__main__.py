@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there! My name is <b>Sophia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = """Hey there! My name is <b>🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
 
 buttons = [
     [
@@ -86,16 +86,16 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text="God", url=f"https://t.me/Suryaakumar"),
+        InlineKeyboardButton(text="Best Friend", url=f"https://t.me/bestie_of_suryaa_parzi"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/Zaynmalik_gc_bot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
+Hi Boss! I'm <b>🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
 DONATE_STRING = """ Join Updates Channel @SophiaUpdates | Support Group @SophiaSupport_Official"""
@@ -433,8 +433,8 @@ def sophia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support Group", url="t.me/dihan_official"),
-                    InlineKeyboardButton(text="Updates Channel", url="t.me/dihanofficial"),
+                    InlineKeyboardButton(text="Support Group", url="t.me/Friendstamilchatting"),
+                    InlineKeyboardButton(text="Updates Channel", url="t.me/mafiakingsfed"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -445,14 +445,14 @@ def sophia_about_callback(update, context):
         )
     elif query.data == "sophia_credit":
         query.message.edit_text(
-            text=f"*Credit For Sophia's Devs*\n"
-            f"\nHere Some Developers Helping in Making The Sophia Bot",
+            text=f"*Credit For 🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨's Devs*\n"
+            f"\nHere Some Developers Helping in Making The 🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨 𝙓 🇷𝐨𝐛𝐨𝐭",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dihan", url="t.me/dihanrandila"),
-                    InlineKeyboardButton(text="Inuka", url="t.me/InukaASiTH"),
+                    InlineKeyboardButton(text="Suryaakumar", url="t.me/Suryaakumar"),
+                    InlineKeyboardButton(text="Frnd", url="t.me/bestie_of_suryaa_parzi"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -490,7 +490,7 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
+                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/stylishsuryaa/xtr"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
