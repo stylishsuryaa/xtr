@@ -338,16 +338,16 @@ def sophia_about_callback(update, context):
     query = update.callback_query
     if query.data == "sophia_":
         query.message.edit_text(
-            text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
+            text=""" My name is *🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨*, I have been written with Pyrogram and Telethon.. I'm online since 26 April 2022 and is constantly updated!
 *Bot Version: 3.0*
 \n*Bot Developers:*
--  @dihanrandila
--  @InukaASiTH
-\n* Updates Channel:* @SophiaUpdates
-* Support Chat:* @SophiaSupport_Official
+-  @Suryaakumar
+-  @bestie_of_suryaa_parzi
+\n* Updates Channel:* @mafiakingsfed
+* Support Chat:* @Friendstamilchatting
                  \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
                  \n\n *Licensed under the GNU Affero General Public Lisence v3.0*
-                 \n© 2020 - 2021 @SophiaSLBot. All Rights Reserved """,
+                 \n© 2020 - 2021 @Zaynmalik_gc_bot. All Rights Reserved """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
